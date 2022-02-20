@@ -92,6 +92,20 @@ address {
   margin-left: auto;
   margin-right: 50px;
 }
+/* .header-mail::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background-image: url(../images/envelope.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+a > .header-mail:hover {
+  color: var(--accent-color);
+} */
 
 .nav.link {
   padding: 32px 0px;
@@ -118,7 +132,7 @@ address {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section.hero {
+.overlay {
   max-width: 1600px;
   height: 600px;
   background-image: linear-gradient(
