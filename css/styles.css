@@ -119,7 +119,16 @@ address {
   padding-bottom: 94px;
 }
 .section.hero {
-  background-color: var(--background-color);
+  max-width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/for-overlay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 200px 0px;
 }
 .section.our-work {
