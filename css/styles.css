@@ -227,8 +227,6 @@ address {
   height: 120px;
   background-color: #f5f4fa;
 }
-.feature-icon {
-}
 /* ----------- our work -----------*/
 .our-work-title,
 .our-team-title,
@@ -286,8 +284,6 @@ address {
 }
 .team-item {
   background-repeat: no-repeat;
-}
-.staff {
 }
 .team-social-link {
   display: flex;
@@ -366,8 +362,6 @@ address {
 .adress,
 .adress.link {
   font-style: normal;
-}
-.ft-adress {
 }
 .ft-social {
   margin-left: 70px;
