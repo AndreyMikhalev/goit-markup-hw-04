@@ -166,9 +166,10 @@ address {
   padding-top: 0px;
 }
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
-  margin-left: 252px;
-  margin-right: 252px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -323,6 +324,9 @@ address {
   display: flex;
   justify-content: space-between;
 }
+.loyal-title {
+  margin-bottom: 50px;
+}
 .loyal-item {
   box-sizing: border-box;
 }
@@ -332,7 +336,6 @@ address {
   justify-content: center;
   width: 170px;
   height: 92px;
-  margin: 16px 0px;
   border: 1px solid var(--loyal-color);
   border-radius: 4px;
   fill: var(--loyal-color);
@@ -407,8 +410,6 @@ address {
 .ft-social-link:hover,
 .ft-social-link:focus {
   background-color: var(--accent-color);
-}
-.ft-social-icon {
 }
 
 /*==========================================*/
